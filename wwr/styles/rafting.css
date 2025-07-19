@@ -5,10 +5,10 @@
       /* tiffany blue */
       --accent1-color: #E48577;
       /* coral pink */
-      --accent2-color: #4E9BA6;
-      /* moon stone */
-      --heading-font: "CrimsonText", serif;
-      --text-font: "Dancing Script", cursive;
+      --accent2-color: #4E9BAE;
+      /* moonstone */
+      --heading-font: 'Crimson Text', serif;
+      --text-font: 'Dancing Script', cursive;
   }
 
   header {
@@ -24,7 +24,7 @@
 
   body {
       font-family: var(--text-font);
-      color: var(--accent color1);
+      color: var(--accent1- color1);
   }
 
   header,
@@ -69,7 +69,7 @@
       padding: 16px;
       text-align: center;
       opacity: 0.7;
-      background-color: var(--accennt1-color);
+      background-color: var(--accent1-color);
       color: #fff;
       /*white text for contrast with the background*/
   }
