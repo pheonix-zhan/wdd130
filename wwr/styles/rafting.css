@@ -1,0 +1,84 @@
+  :root {
+      --primary-color: #7DF2CD;
+      /* aquamarine */
+      --secondary-color: #A4DFD8;
+      /* tiffany blue */
+      --accent1-color: #E48577;
+      /* coral pink */
+      --accent2-color: #4E9BA6;
+      /* moon stone */
+      --heading-font: "CrimsonText", serif;
+      --text-font: "Dancing Script", cursive;
+  }
+
+  header {
+      background-color: var(--primary-color);
+      color: var(--accent1-color);
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: var(--text-font);
+      color: var(--accent color1);
+  }
+
+  header,
+  main,
+  footer {
+      width: 840px;
+      margin: 0 auto;
+  }
+
+  h1,
+  h2 {
+      font-family: var(--heading-font);
+      color: var(--primary-color);
+  }
+
+  nav,
+  p,
+  section,
+  article {
+      margin: 16px;
+      padding: 8px;
+  }
+
+  .socialmedia a {
+      text-decoration: none;
+  }
+
+  .hero {
+      position: relative;
+  }
+
+  .hero img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  h1 {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      padding: 16px;
+      text-align: center;
+      opacity: 0.7;
+      background-color: var(--accennt1-color);
+      color: #fff;
+      /*white text for contrast with the background*/
+  }
+
+  .hero article img {
+      float: right;
+      width: 125px;
+      height: 125px;
+      margin-left: 16px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
