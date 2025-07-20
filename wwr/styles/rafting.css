@@ -62,7 +62,7 @@
       height: auto;
   }
 
-  h1 {
+  .hero h1 {
       position: absolute;
       top: 20px;
       width: 100%;
@@ -73,12 +73,49 @@
       color: #fff;
       /*white text for contrast with the background*/
   }
+  .hero article {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;}
 
   .hero article img {
       float: right;
       width: 125px;
       height: 125px;
       margin-left: 16px;
-      border-radius: 50%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
   }
+  /* History Section */
+section:nth-of-type(1) {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+/* Adventure Section */
+section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+    section:nth-of-type(2) img {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid var(--secondary-color);}
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid var(--primary-color);
+}
+
+.socialmedia img {
+    width: 30px;
+    margin-left: 10px;}
