@@ -13,41 +13,33 @@
 
 .header-grid {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
     padding: 20px 40px;
     gap: 30px;
-    justify-content: center;
+    justify-items: right;
     background-color: var(--primary-color);
     color: var(--accent1-color);
 }
 
-.logo-box {
+.logo {
     width: 100px;
     height: auto;
     justify-self: start;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    justify-content:flex-end;
+    align-items: center;
+    font-family: var(--text-font);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    /* Better contrast */
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    width: 100px;
-    height: auto;
 }
 
 header,
@@ -69,15 +61,20 @@ nav {
     gap: 20px;
 }
 
-nav a {
+.nav-links a {
     text-decoration: none;
     color: var(--accent2-color);
     font-weight: 600;
     transition: color 0.3s;
+    gap: 20px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
+.nav-link a:hover {
     color: var(--accent1-color);
+    transform: translateY(-3px)
 }
 
 .hero {
@@ -97,12 +94,12 @@ nav a:hover {
 .hero-title h1 {
     position: absolute;
     top: 20px;
-    left:40px;
+    left: 40px;
     width: 50%;
     padding: 16px;
     text-align: top;
     text-shadow: 1px 1px4px rgba(0, 0, 0, 0.7);
-z-index: 10;
+    z-index: 10;
     /* semi-transparent */
     color: white;
     font-size: 3rem;
@@ -117,8 +114,8 @@ z-index: 10;
     color: white;
     padding: 20px;
     border-radius: 50px;
-    font-size: 1.8em;
-    
+    font-size: 1.2em;
+
 }
 
 .hero article img {
@@ -183,10 +180,11 @@ z-index: 10;
 .adventures {
     margin-bottom: 40px;
 }
+
 .gallery-section {
-  background-color: white;
-  padding: 50px 20px;
-  text-align: center;
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .section-heading {
@@ -209,7 +207,7 @@ z-index: 10;
 .photo-gallery figure {
     flex: 1 1 150px;
     text-align: center;
-    max-width:200px ;
+    max-width: 200px;
 
 }
 
@@ -229,7 +227,7 @@ z-index: 10;
 .gallery figcaption {
     margin-top: 8px;
     font-size: 0.9rem;
-    color:#4E9BAE;
+    color: #4E9BAE;
 }
 
 footer {
