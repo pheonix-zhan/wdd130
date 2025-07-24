@@ -11,9 +11,20 @@
       --text-font: 'Dancing Script', cursive;
   }
 
-  header {
+  header-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto ifr;
+      gap: 30px;
+      justify-content: end;
       background-color: var(--primary-color);
       color: var(--accent1-color);
+  }
+
+  .logo-box {
+      width: 100px;
+      height: auto;
+      justify-self: start;
   }
 
   * {
