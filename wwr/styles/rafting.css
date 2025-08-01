@@ -19,7 +19,7 @@
     padding: 20px 40px;
     gap: 30px;
     justify-items: right;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent1-color);
 }
 
@@ -161,7 +161,7 @@ nav {
     max-width: 600px;
     margin: 50px auto;
     padding: 30px;
-    background-color: #fffafc;
+    background-color:white;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -192,7 +192,7 @@ nav {
     display: block;
     width: 100%;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #4E9BAE;
     font-size: 15px;
     margin-top: 5px;
     box-sizing: border-box;
@@ -217,7 +217,7 @@ nav {
     margin-top: 20px;
     padding: 12px;
     border: none;
-    background-color: #E48577;
+    background-color: #4E9BAE;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -227,7 +227,7 @@ nav {
 }
 
 .user-form button hover {
-    background-color: #E48577;
+    background-color:#4E9BAE;
 }
 
 .employee-and-form {
@@ -241,7 +241,7 @@ nav {
 .user-form select {
     padding: 10px;
     font-size: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #4E9BAE;
     border-radius: 6px;
     margin-top: 5px;
 }
@@ -260,7 +260,7 @@ nav {
 
 .user-form-section {
     flex: 1 1 40%;
-    background-color: #fffafc;
+    background-color: white;;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -269,7 +269,7 @@ nav {
 /* contact details  */
 .contact-details {
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 .info-cards {
@@ -282,7 +282,7 @@ nav {
 .info-cards figure {
     text-align: center;
     padding: 15px;
-    background: #fff;
+    background:#A4DFD8;;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
