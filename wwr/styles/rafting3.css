@@ -86,7 +86,7 @@ nav {
     gap: 20px;
 }
 
-
+/* HERO SECTION  */
 .hero {
     position: relative;
     margin-bottom: 30px;
@@ -125,7 +125,7 @@ nav {
     padding: 20px;
     border-radius: 50px;
     font-size: 1.2em;
-    border: 3px solid white;
+    border: 3px solid black;
     box-sizing: border-box;
 
 }
@@ -195,7 +195,7 @@ nav {
     color: var(--accent2-color);
 }
 
-/* Adventure Section */
+/* SECTION 2 */
 .adventures {
     margin-bottom: 40px;
 }
@@ -251,6 +251,50 @@ nav {
     color: #4E9BAE;
 }
 
+/* NEW LETTER  AND CTA */
+
+.cta-newsletter{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 60px 40px;
+    background-color: #3496eb;
+    justify-content: center;
+    align-items:  center;
+    border-radius: 40px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.cta-box, 
+.newsletter-box {
+    flex: 1 1 45%;
+    padding:20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3, h4 {
+    font-size: 2rem;
+    color: #0096c7;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 24px;
+    background-color: #0096c7;
+    color: white;
+    text-decoration:none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #0077b6;
+    transform: translateY(-3px);
+}
 footer {
     display: flex;
     justify-content: space-between;
@@ -263,6 +307,39 @@ footer {
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
 }
+
+/* contact details  */
+.contact-details {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-cards figure {
+    text-align: center;
+    padding: 15px;
+    background:#A4DFD8;;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-cards img {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+
+.info-cards figcaption {
+    font-size: 14px;
+    color: #333;
+}
+
+
 
 footer p {
     font-size: 1rem;
@@ -292,4 +369,3 @@ footer p {
     border: 2px solid var(--accent2-color);
     padding: 4px;
     background-color: white;
-}
